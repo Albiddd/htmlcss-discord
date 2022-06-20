@@ -20,6 +20,7 @@ a{
     color: cornflowerblue;
 }
 
+/* Layout nav */
 header{
     background-color: lightblue;
     padding: 10px;
@@ -36,21 +37,52 @@ header{
     gap: 20px;
 }
 
+/* Layout main */
+main section{
+    padding: 50px 0;
+}
 .section-blue{
     background-color: blue;
-    padding: 50px 0;
 }
 
 .first-item{
     max-width: 900px;
     height: 390px;
-    background-color: pink;
+    background-color: violet;
+    border: 2px dashed black;
     margin: 0 auto;
     flex-basis: 100%;
 }
 
+.section-grey{
+    background-color: lightgray;
+}
+.col-1{
+    background-color: cornflowerblue;
+    flex-basis: 60%;
+    height: 390px;
+    border: 2px dashed black;
+}
+.col-2{
+    background-color: pink;
+    flex-basis: 40%;
+    height: 390px;
+    border: 2px dashed black;
+}
+
+.row{
+    flex-direction: row-reverse;
+}
+
+.container-green{
+    height: 890px;
+    background-color: lightgreen;
+    flex-basis: 100%;
+    border: 2px dashed black;
+}
 
 
+/* Layout footer */
 
 
 
