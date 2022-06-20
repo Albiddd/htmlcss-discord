@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .flex{
@@ -17,7 +18,7 @@ ul, ol, menu{
 }
 a{
     text-decoration: none;
-    color: cornflowerblue;
+    color: black;
 }
 
 /* Layout nav */
