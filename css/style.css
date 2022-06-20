@@ -42,10 +42,11 @@ header{
 }
 
 .first-item{
-    width: 900px;
+    max-width: 900px;
     height: 390px;
     background-color: pink;
     margin: 0 auto;
+    flex-basis: 100%;
 }
 
 
