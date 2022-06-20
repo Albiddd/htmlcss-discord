@@ -42,7 +42,7 @@ main section{
     padding: 50px 0;
 }
 .section-blue{
-    background-color: blue;
+    background-color: darkblue;
 }
 
 .first-item{
@@ -83,9 +83,40 @@ main section{
 
 
 /* Layout footer */
+.footer-section{
+    background-color: dimgray;
+}
 
+.footer-grid{
+    padding: 10px 0 40px 0;
+    margin-bottom: 2px;
+}
+.credits-section{
+    padding-top: 30px;
+}
+.footer-col-2{
+    background-color: lightcoral;
+    flex-basis: 33.33%;
+    height: 500px;
+    border: 2px dashed black;
+}
+.footer-col-1{
+    background-color: darkturquoise;
+    flex-basis: 16.66%;
+    height: 500px;
+    border: 2px dashed black;
+}
 
-
+.footer-credits{
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 10px 0;
+}
+.footer-logo, .footer-button{
+    background-color: pink;
+    border: 2px dashed black;
+    padding: 5px;
+}
 
 
 
