@@ -202,6 +202,16 @@ select option {
     background: #23272A;
     color: white;
 }
+.social-container{
+    gap: 30px;
+}
+.social{
+    padding-top: 5px;
+}
+.social__logo{
+    width: 24px;
+    height: 24px;
+}
 .footer__hr{
     max-width: 1200px;
     border: 0;
@@ -212,7 +222,7 @@ select option {
 
 /* FOOTER GRID font style */
 .footer__title{
-    font-size: 34px;
+    font-size: 35px;
     color: #7289da;
 }
 .footer__list-title{
