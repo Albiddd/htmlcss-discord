@@ -27,13 +27,14 @@
 ul, ol, menu{
     list-style: none;
 }
+li:hover{
+    text-decoration: underline; 
+}
 a{
     text-decoration: none;
     color: white;
 }
-a:hover{
-    text-decoration: underline; 
-}
+
 
 /* Layout nav */
 header{
