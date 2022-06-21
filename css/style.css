@@ -18,19 +18,17 @@ ul, ol, menu{
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* Layout nav */
 header{
-    background-color: lightblue;
+    background-color: #255EE9;
     padding: 10px;
 }
 .main-nav{
     justify-content: space-between;
     align-items: center;
-    background-color: goldenrod;
-    border: 2px dashed black;
     padding: 10px 10px;
 }
 .main-menu{
@@ -40,16 +38,20 @@ header{
 
 /* Layout main */
 main section{
-    padding: 50px 0;
+    padding: 80px 0;
 }
-.section-blue{
-    background-color: darkblue;
+.hero{
+  position: relative;
+}
+.hero img{
+    display: block;
+    position: absolute;
+    top: 0;
 }
 
-.first-item{
+.hero__content{
     max-width: 900px;
     height: 390px;
-    background-color: violet;
     border: 2px dashed black;
     margin: 0 auto;
     flex-basis: 100%;
