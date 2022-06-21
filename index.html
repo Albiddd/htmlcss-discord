@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord Layout</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body class="debug">
     
@@ -33,43 +34,70 @@
                     </li>
                 </ul>
             </div>
-            <a href="#">Accedi</a>
+            <a class="button button-white" href="#">Accedi</a>
         </nav>
     </header>
 
     <main>
         <section class="hero">    
             <div class="container flex">
-                <div class="hero__content"></div>
+                <div class="hero__content">
+                    <h1 class="hero__title">Il tuo posto per parlare</h1>
+                    <p class="hero__text">Che tu faccia parte di un club scolastico, un gruppo di gamer, una community artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende piú facile chiacchierare ogni giorno e ritrovarsi piú spesso.</p>
+                    <div class="hero__button flex">
+                        <a class="button button-white" href="#">Scarica per Windows</a>
+                        <a class="button button-dark" href="#">Apri Discord nel tuo browser</a>
+                    </div>
+                </div>
             </div>
-            <img width="100%" height="100%" src="/img/jumbo.png" alt="">
         </section>
 
         <section>
             <!-- le colonne si dividono 3/5 e 2/5 (60% e 40%) -->
             <div class="container flex">
-                <div class="col-1"></div>
-                <div class="col-2"></div>
+                <div class="col-1">
+                    <img src="/img/item1.svg" alt="image of Discord server with channels">
+                </div>
+                <div class="col-2">
+                    <h2 class="description-title">Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                    <p class="description-text">I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
+                </div>
             </div>
         </section>
         
         <section class="section-grey">
-            <div class="container flex row">
-                <div class="col-1"></div>
-                <div class="col-2"></div>
+            <div class="container flex row-reverse">
+                <div class="col-1">
+                    <img src="/img/item2.svg" alt="image of Discord server with voice channels">
+                </div>
+                <div class="col-2 col-reverse">
+                    <h2 class="description-title">Dove trovarsi é facile</h2>
+                    <p class="description-text">Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.</p>
+                </div>
             </div>
         </section>
 
         <section>
             <div class="container flex">
-                <div class="col-1"></div>
-                <div class="col-2"></div>
+                <div class="col-1">
+                    <img src="/img/item3.svg" alt="image of Discord server organized into roles ">
+                </div>
+                <div class="col-2">
+                    	<h2 class="description-title">Da pochi a un fandom</h2>
+                        <p class="description-text">Dai inizio a una community con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati e molto altro.</p>
+                </div>
             </div>
         </section>
 
         <section class="section-grey">
             <div class="container flex">  
-                <div class="container-green"></div>      
+                <div class="video-row">
+                    <h2 class="description-title">Tecnologia affidabile per tenersi in contatto</h2>
+                    <p class="description-text">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
+                    <img src="/img/item4-big.svg" alt="Discord video chat">
+                    <h3 class="end-title">Pronto a iniziare la tua avventura?</h3>
+                    <a class="button button-blue" href="#">Scarica per Windows</a>
+                </div>      
             </div>
         </section>
     </main>
@@ -78,12 +106,67 @@
         <section class="footer-section footer-grid">
             <!-- le colonne si dividono in 2/6 e 1/6  -->
             <div class="container flex">
-                <div class="footer-col-2"></div>
-                <div class="footer-col-1"></div>
-                <div class="footer-col-1"></div>
-                <div class="footer-col-1"></div>
-                <div class="footer-col-1"></div>
+                <div class="footer-col-2">
+                    <h4 class="footer__title">Il tuo posto per parlare</h4>
+                    <div class="language">
+                        <img class="language__img" src="/img/ita.png" alt="language">
+                        <select class="language__select">
+                            <option>Italiano</option>
+                            <option>English</option>
+                            <option>Español</option>
+                            <option>Deutsch</option>
+                          </select>
+                    </div>
+                    <i class="fa-regular fa-twitter" style="color: white"></i>
+                    <i class="fa-regular fa-clock" style="color: #1c7ed6;"></i>
+                </div>
+                <div class="footer-col-1">
+                    <h5 class="footer__list-title">Prodotto</h5>
+                    <ul class="footer__list">
+                        <li><a href="#">Scarica</a></li>
+                        <li><a href="#">Perché Discord</a></li>
+                        <li><a href="#">Nitro</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Assistenza</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-1">
+                    <h5 class="footer__list-title">Compagnia</h5>
+                    <ul class="footer__list">
+                        <li><a href="#">Chi siamo</a></li>
+                        <li><a href="#">Lavora con noi</a></li>
+                        <li><a href="#">Marchio</a></li>
+                        <li><a href="#">Redazione</a></li>
+                        <li><a href="#">Negozio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-1">
+                    <h5 class="footer__list-title">Risorse</h5>
+                    <ul class="footer__list">
+                        <li><a href="#">Scarica</a></li>
+                        <li><a href="#">Perché Discord</a></li>
+                        <li><a href="#">Nitro</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Assistenza</a></li>
+                        <li><a href="#">Scarica</a></li>
+                        <li><a href="#">Perché Discord</a></li>
+                        <li><a href="#">Nitro</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Assistenza</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-1">
+                    <h5 class="footer__list-title">Prodotto</h5>
+                    <ul class="footer__list">
+                        <li><a href="#">Scarica</a></li>
+                        <li><a href="#">Perché Discord</a></li>
+                        <li><a href="#">Nitro</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Assistenza</a></li>
+                    </ul>
+                </div>
             </div>
+            <hr>
         </section>
 
         <section class="footer-section credits-section">
