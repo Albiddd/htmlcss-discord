@@ -67,7 +67,7 @@ main section{
 }
 .hero{
     color: white;
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center center;
 }
@@ -145,7 +145,7 @@ main section{
     width: 540px;
     font-size: 28px;
     padding: 60px 0;
-    background-image: url(/img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     margin: auto;
