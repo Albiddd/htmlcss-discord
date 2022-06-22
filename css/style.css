@@ -69,14 +69,8 @@ main section{
     color: white;
     background-image: url(/img/jumbo.png);
     background-size: cover;
+    background-position: center center;
 }
-/* .hero img{
-    display: block;
-    position: absolute;
-    top: 0;
-    max-width: 100%;
-    max-height: 100%;
-} */
 
 .hero__content{
     max-width: 720px;
