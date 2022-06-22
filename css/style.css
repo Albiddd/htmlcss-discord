@@ -115,11 +115,11 @@ main section{
 .col-2{
     flex-basis: 40%;
     height: 390px;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 .col-2.col-reverse{
     padding-left: 0px;
-    padding-right: 40px;
+    padding-right: 50px;
 }
 
 .row-reverse{
@@ -148,6 +148,7 @@ main section{
     background-image: url(../img/stars.svg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
     margin: auto;
 }
 .video-row .button{
