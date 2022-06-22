@@ -225,6 +225,7 @@ select option {
     font-size: 14px;
     color: #7289da;
     padding-bottom: 5px;
+    padding-top: 10px;
 }
 .footer__list{
     line-height: 2.5;
